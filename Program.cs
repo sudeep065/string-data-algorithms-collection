@@ -12,6 +12,7 @@ namespace string_data_algorithms_collection
         {
         }
 
+        #region -- Simple-Superreduced
         // Complete the superReducedString function below.
         static string superReducedString(string s)
         {
@@ -33,5 +34,6 @@ namespace string_data_algorithms_collection
             }
             return s;
         }
+        #endregion
     }
 }
