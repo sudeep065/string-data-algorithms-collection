@@ -10,6 +10,16 @@ namespace string_data_algorithms_collection
     {
         static void Main(string[] args)
         {
+            var watch = new System.Diagnostics.Stopwatch();
+
+            watch.Start();
+
+            long res = repeatedString("a", 1000000000000);
+
+            watch.Stop();
+            Console.WriteLine(res);
+            Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
+            Console.Read();
         }
 
         #region -- Simple-Superreduced
@@ -33,6 +43,31 @@ namespace string_data_algorithms_collection
                 return "Empty String";
             }
             return s;
+        }
+        #endregion
+
+        #region --RepeatedString
+        // Complete the repeatedString function below.
+        static long repeatedString(string s, long n)
+        {
+            // input aba n =10, a=7 abaabaabaa
+            int result = 0;
+            int j = 0;
+            List<char> input = new List<char>();
+            for (int i = 0; i < n; i++)
+            {
+                if (s.Length == j)
+                {
+                    j = 0;
+                }
+                input.Add(s[j]);                
+                j++;
+                if(input[i]== 'a')
+                {
+                    result++;
+                }
+            }
+            return result;
         }
         #endregion
     }
