@@ -49,7 +49,7 @@ The first n=10 letters of the infinite string are "abaabaabaa". Because there ar
 # 10 Days of Statistics
 |   | Day | Problem         | Solution | Difficulty | Points | Note |
 |-- |:---:|:---------------:|:--------:|:----------:|:------:|:----:|
-| ⭐ | 9 |[Multiple Linear Regression (Last day)](https://www.hackerrank.com/challenges/s10-multiple-linear-regression/problem)| [JavaScript](10-days-of-statistics/s10-multiple-linear-regression.js) | Medium | 30 | Implementation of a research from Ahmad Farooq and Khan Hamid, from C to JavaScript with some custom modifications |
+| ⭐ | 9 |[Multiple Linear Regression (Last day)](https://www.hackerrank.com/challenges/s10-multiple-linear-regression/problem)| [JavaScript](10-days-of-statistics/s10-multiple-linear-regression.js) | Medium | 30 | |
 | | 8 |[Least Square Regression Line](https://www.hackerrank.com/challenges/s10-least-square-regression-line/problem)| [JavaScript](10-days-of-statistics/s10-least-square-regression-line.js) | Easy | 30 | |
 | | 7 |[Spearman's Rank Correlation Coefficient](https://www.hackerrank.com/challenges/s10-spearman-rank-correlation-coefficient/problem)| [JavaScript](10-days-of-statistics/s10-spearman-rank-correlation-coefficient.js) | Easy | 30 | |
 | | 7 |[Pearson Correlation Coefficient I](https://www.hackerrank.com/challenges/s10-pearson-correlation-coefficient/problem)| [JavaScript](10-days-of-statistics/s10-pearson-correlation-coefficient.js) | Easy | 30 | |
